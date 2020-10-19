@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(https://www.offalyexpress.ie/resizer/-1/-1/true/1530458397892.jpg--.jpg?1530458397000);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.jumbotron {
+    background-color: #1f3c88;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#current-weather {
+    background-color: #d6e6f2;
+    color: #000000;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
