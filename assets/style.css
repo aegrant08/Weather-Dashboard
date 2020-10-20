@@ -35,3 +35,15 @@ li:hover{
     background-color: lightslategray;
     text-decoration: underline;
 }
+.low {
+    background-color: green;
+    color: #ffffff;
+}
+.moderate {
+    background-color: orange;
+    color: #ffffff;
+}
+.high {
+    background-color: red;
+    color: #ffffff;
+}

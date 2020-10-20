@@ -95,9 +95,24 @@ function UVIndex(ln, lt) {
     });
 }
 
+// displays UV Index warnings
+function uvWarnings() {
+    if (currentUVIndex < 3) {
+        $("#uv-index").removeClass("moderate");
+        $("#uv-index").removeClass("high");
+        $("#uv-index").addClass("low");
+    } else if (currentUVIndex < 6) {
+        $("#uv-index").removeClass("low");
+        $("#uv-index").removeClass("high");
+        $("#uv-index").addClass("moderate");
+    } else {
+        $("#uv-index").removeClass("moderate");
+        $("#uv-index").removeClass("low");
+        $("#uv-index").addClass("high");
+    }
+}
 // displays the 5 days forecast for the current city
 function forecast(cityid) {
-    var dayover = false;
     var queryforecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityid + "&appid=" + APIKey;
     $.ajax({
         url: queryforecastURL,
