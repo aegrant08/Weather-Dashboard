@@ -1,7 +1,7 @@
-//Declare a variable to store the searched city
+// variable to store the searched city
 var city = "";
 
-// variable declaration
+// variables
 var searchCity = $("#search-city");
 var searchBtn = $("#search-button");
 var clearBtn = $("#clear-history");
@@ -12,7 +12,7 @@ var currentWindSpeed = $("#wind-speed");
 var currentUVIndex = $("#uv-index");
 var sCity = [];
 
-// searches the city to see if it exists in the entries from the storage
+// searches city to see if it exists in the entries from the storage
 function find(c) {
     for (var i = 0; i < sCity.length; i++) {
         if (c.toUpperCase() === sCity[i]) {
