@@ -2,7 +2,6 @@
     box-sizing: border-box;
     
 }
-
 body {
     background-image: url(https://www.offalyexpress.ie/resizer/-1/-1/true/1530458397892.jpg--.jpg?1530458397000);
     font-size: 16px;
@@ -14,24 +13,21 @@ body {
     color: #ffffff;
     text-align: center;
 }
-
-h3{
+h3 {
     font-weight: bold;
 }
-
 #current-weather {
     background-color: #d6e6f2;
     color: #000000;
 }
-.forecast{
-    
+.forecast { 
+    background-color: #1f3c88;
     font-size: 0.9em;
 }
-span{
+span {
     font-size: 1em;
 }
-
-li:hover{
+li:hover {
     background-color: lightslategray;
     text-decoration: underline;
 }
