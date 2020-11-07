@@ -1,5 +1,7 @@
+
 // variable to store the searched city
 var city = "";
+
 
 // variables
 var searchCity = $("#search-city");
@@ -22,7 +24,7 @@ function find(c) {
     return 1;
 }
 // API key
-var APIKey = config.My_Key;
+var APIKey = "09057e2633608e3225eeb972c358f05d";
 
 // displays the curent and future weather to the user after grabing the city from the input text box
 function displayWeather(event) {
