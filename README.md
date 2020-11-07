@@ -7,9 +7,18 @@ This is an application built using Bootstrap for responsive layout and JavaScrip
 #Functionality
 When the user inputs a city in the search box, the current weather is displayed in the container to the right, showing the current date, temperature, humidity, wind speed, and UV index. UV Index is color coded to show low, moderate, or high depending on the UV Index in the city.
 
+![Landing Page](assets/screen-shots/1-Landing-Page.png?raw=true)
+
 Below the current weather container, a five day forecast is displayed with the temperature and humidity.
 
-After the city has been searched, the city and its weather information is stored in local storage, so when the user navigates back to the Weather Dashboard, the names of the cities they recently searched are displayed in the sidebar, with the most recent city searched displaying in the current weather container and five day forecast shown. The user can clear their search history and local storage by clicking on the "clear history" button.
+![Demo](assets/screen-shots/2-Demo.png?raw=true)
+
+After the city has been searched, the city and its weather information is stored in local storage, so when the user navigates back to the Weather Dashboard, the names of the cities they recently searched are displayed in the sidebar, with the most recent city searched displaying in the current weather container and five day forecast shown. 
+
+![History Demo](assets/screen-shots/3-History-Demo.png?raw=true)
+
+
+The user can clear their search history and local storage by clicking on the "clear history" button.
 
 #Deployed Link
 
